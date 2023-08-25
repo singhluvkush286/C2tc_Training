@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.tns.scanner&apos; to &apos;JavaCore/src/com&apos;&#x0D;&#x0A;- Original project: &apos;JavaCore&apos;&#x0D;&#x0A;- Destination element: &apos;JavaCore/src/com&apos;&#x0D;&#x0A;- Original element: &apos;JavaCore/src/com.tns.scanner&apos;" description="Copy package" destination="/src&lt;com" element1="/src&lt;com.tns.scanner" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1692937101419" version="1.0"/>
+</session>
