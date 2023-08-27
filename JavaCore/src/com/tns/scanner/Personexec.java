@@ -2,7 +2,7 @@ package com.tns.scanner;
 import java.util.Scanner;
 
 public class Personexec {
-    public static void main(String[]args)
+    public static void main(String[] args)
     {
     	Scanner ob=new Scanner(System.in);
     	String name;
