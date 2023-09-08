@@ -3,10 +3,8 @@ package com.tns.constructor;
 import java.util.Scanner;
 
 public class ConstructorDemo {
-	private static Scanner sc;
-
 	public static void main(String[] args) {
-		sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		String name,city;
 		int id;
 		System.out.println("enter customer Id");
@@ -16,7 +14,7 @@ public class ConstructorDemo {
 		name= sc.next();
 		System.out.println("enter customer city");
 		city= sc.next();
-		Customer cl = new Customer(city, id, city);  //default constructer
+		Customer cl = new Customer();  //default constructer
 		cl.setCustomerId(id);
 		cl.setCustomerName(name);
 		cl.setCustomerCity(city);

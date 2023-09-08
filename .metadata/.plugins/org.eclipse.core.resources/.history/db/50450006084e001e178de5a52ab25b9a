@@ -8,16 +8,10 @@ public class Customer {
 	private String customerCity;
 	
 	
-	public Customer(String name, int id, String city) {
+	public Customer() {
 		System.out.println("default Constructor");
 	}
 	
-
-
-	public void Customer1(String city, int id, String city2) {
-		// TODO Auto-generated constructor stub
-	}
-
 
 
 	@Override

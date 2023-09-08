@@ -3,10 +3,8 @@ package com.tns.constructor;
 import java.util.Scanner;
 
 public class ConstructorDemo {
-	private static Scanner sc;
-
 	public static void main(String[] args) {
-		sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		String name,city;
 		int id;
 		System.out.println("enter customer Id");
