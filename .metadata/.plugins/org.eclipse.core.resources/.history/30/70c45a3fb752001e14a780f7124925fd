@@ -1,0 +1,11 @@
+package com.tns.exception;
+
+public class NestedTryCatch {
+	public static void check()
+	{
+		String str = "TNS";
+		int slength = str.length();
+		System.out.println("String Lenght"+slength);
+
+	}
+}

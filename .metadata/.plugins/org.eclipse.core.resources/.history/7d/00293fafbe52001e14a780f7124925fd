@@ -1,0 +1,6 @@
+package com.tns.exception;
+
+public class throwException {
+
+	static void display
+}
