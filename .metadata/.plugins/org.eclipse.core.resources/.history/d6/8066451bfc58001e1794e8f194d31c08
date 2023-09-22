@@ -1,0 +1,27 @@
+package com.tns.Generics;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create a MyList of integers
+        IContainer<Integer> intList = new MyList<>(5);
+        intList.add(1);
+        intList.add(2);
+        intList.add(3);
+        intList.add(4);
+        intList.add(5);
+        intList.displayContents();
+
+        // Create a MyList of strings
+        IContainer<String> stringList = new MyList<>(3);
+        stringList.add("Apple");
+        stringList.add("Banana");
+        stringList.add("Cherry");
+        stringList.displayContents();
+    }
+}
+
+
+
+
+
+
